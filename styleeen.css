@@ -17,7 +17,7 @@
 	section.main {
 		width: 100%;
 		min-height: 100%;
-		background-image: url('fundo-site.png');
+		background-image: url('imagensb/fundo-site.png');
 		background-position: center;
 		background-size: cover;
 
@@ -43,7 +43,7 @@
 	/*Menu*/
 	
 	#menu-hz {
-	  background: #363534;
+	  background: #5C403B;
 	  list-style: none;
 	  padding: 0;
 	  text-align: center;

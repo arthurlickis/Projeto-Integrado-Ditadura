@@ -1,61 +1,66 @@
 
 	*{ 
-	margin: 0;
-	padding: 0;
-	box-sizing:  border-box;
-	font-family: 'Roboto', sans-serif;
-	text-align: justify;
+		margin: 0;
+		padding: 0;
+		box-sizing:  border-box;
+		font-family: 'Roboto', sans-serif;
+		text-align: justify;
 	
 	}	
 	
-  body {
-	width: 100%;
-	min-height: 100%;
-	background-image: url('fundo-site.png');
-	background-position: center;
-    background-size: cover;
-	color: White;
+	body {
+		color: White;
   
+  }
+  
+	section.main {
+		width: 100%;
+		min-height: 100%;
+		background-image: url('imagensb/fundo-site.png');
+		background-position: center;
+		background-size: cover;
+
 	}
   
-    /*Formulário-QUIZ*/
+	/*Formulário-QUIZ*/
 	
 	form {
-	background-color: #F5F5F5;
-    max-width: 850px;
-	padding: 20px;	
-	color: Black;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	border-radius: 12px;
-	
+		background-color: #F5F5F5;
+		max-width: 850px;
+		padding: 20px;	
+		color: Black;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 12px;
+		opacity: 0.96;
+
 	}
 	
 
 	
 	form input[type=text],
 	form input[tyoe=select] {
-	width: 100%;
-	height: 45px;
-	border: 1px solid #CCC;
-	padding-left: 10px;
-	margin: 10px 0;	
-	border-radius: 10px;
+		width: 100%;
+		height: 45px;
+		border: 1px solid #CCC;
+		padding-left: 10px;
+		margin: 10px 0;	
+		border-radius: 10px;
 		
 	}
 	
-	form input[type=submit] {
-    width: 20%;
-    height: 40px;
-    cursor: pointer;
-	border-radius: 10px; 
-	border: 0px;  
-	text-align: center; 
-	background-color: #5AAD15; 
-	color: white;
-	color: White; 
-	margin-left: 250px;
+	form input[type=button] {
+		width: 20%;
+		height: 40px;
+		cursor: pointer;
+		border-radius: 10px; 
+		border: 0px;  
+		text-align: center; 
+		background-color: #5AAD15; 
+		color: white;
+		color: White; 
+		margin-left: 250px;
 
 	}
 	
@@ -86,27 +91,27 @@
 	
 	.pt-br {
 		margin-top: -50px;
-        float: right;
+		float: right;
 		margin-right: 30px;
-		
     }
 	
 	/*Menu*/
 	
 	#menu-hz {
-	  background: #363534;
+	  background: #5C403B;
 	  list-style: none;
 	  padding: 0;
 	  text-align: center;
 	  font-size: 19px;
+	  text-shadow: 1px 1px 1px #000;
 
 	}
-  
-   
+	  
+	   
 	#menu-hz ul li{
 		display: inline;
 		
-	  }
+	}
 	  
 	#menu-hz ul li a{
 		color: white;  
@@ -114,60 +119,63 @@
 		display: inline-block;
 		padding: 25px;
 		  
-	  }
+	}
 	  
 	#menu-hz ul li a:hover{
 		color: #EB0015;
 		transition: color .3s;	
 
 	}
-	
-	
-	/*Cadastro do Quiz*/
-	
+
+	#check{
+		display: inline-block;
+	}
+
+		/*Cadastro do Quiz*/
+		
 	fieldset {
-    border: 0;
-	
+		border: 0;
+		
 	}
 
 
 	input, select, textarea, button {
-    font-family: sans-serif;
-    font-size: 1em;
-    border-radius: 5px;
-	
+		font-family: sans-serif;
+		font-size: 1em;
+		border-radius: 5px;
+		
 	}
 
 
 	.grupo:before, .grupo:after {
 		display: table;
-		
+			
 	}
 
 
 	.grupo:after {
 		clear: both;
-		
+			
 	}
 
 
 	.campo {
 		margin-bottom: 1em;
-		
+			
 	}
 
 
 	.campo label {
 		margin-bottom: 0.2em;
 		display: block;
-		
+			
 	}
 
 
 	fieldset.grupo .campo {
 		float:  left;
 		margin-right: 1em;
-		
+			
 	}
 
 
@@ -176,9 +184,9 @@
 		border: 1px solid #363534;
 		box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 		display: block;
-		
+			
 	}
-	
+		
 	
 	.campo input[type="text"], .campo input[type="password"], .campo select, .campo textarea {
 		padding: 0.2em;
@@ -231,5 +239,5 @@
 	.certo {
 		position: absolute;
 		margin-left: 10px;
-	 
- }
+	
+	}

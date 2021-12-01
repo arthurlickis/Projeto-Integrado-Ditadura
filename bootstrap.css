@@ -11312,41 +11312,42 @@ textarea.form-control-lg {
 
 	}
   
-	th {
-		
-	height: 25px; 
-	text-align: center;
+	th {	
+		height: 25px; 
+		text-align: center;
 	  
 	}
   
 	.titulo1 {
-	background: #212529;
-	color: #fff;
+		background: #212529;
+		color: #fff;
 
 	}
    
 	td:hover {  
-	  background-color: #ddd; 
+		background-color: #ddd; 
+	
 	}
    
    /*Imagens dos paises que sofreram ditadura*/
    
 	.paises {
-	margin: 7px;
-	width: 22px;
-	height: 15px;	
+		margin: 7px;
+		width: 22px;
+		height: 15px;	
 	 
 	}
  
 	
 	body {
-	overflow-x: hidden;	/*tag para esconder barra lateral*/
- 
+		overflow-x: hidden;	/*tag para esconder barra lateral*/
+	
+	}
+	
+	p {
+		text-align: justify;
+		
 	}
  
-	h2:hover {
- color: #DA4625;
-
-	}
  
 /*# sourceMappingURL=bootstrap.css.map */

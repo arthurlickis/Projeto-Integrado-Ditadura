@@ -11233,8 +11233,7 @@ textarea.form-control-lg {
 	  padding: 0;
 	  text-align: center;
 	  font-size: 19px;
-	 
-
+	
 	}
   
    
@@ -11302,33 +11301,36 @@ textarea.form-control-lg {
 	}
   
 	td {
-	border: 1px solid #ddd;
-	padding-right: 10px;
-	box-shadow: 0.5px rgba(0,0,0,0.2);
-	background: #e9ecef;
+		border: 1px solid #ddd;
+		padding-right: 10px;
+		box-shadow: 0.5px rgba(0,0,0,0.2);
+		background: #e9ecef;
 		
 		
 	}
   
-	th {	
+	th {
 		height: 25px; 
 		text-align: center;
+	
 	  
 	}
   
-	.titulo1 {
+	/*Título*/
+  
+  .titulo1 {
 		background: #212529;
 		color: #fff;
-
-	}
-   
-	td:hover {  
-		background-color: #ddd; 
 	
+	}  
+ 
+	td:hover {
+	  background-color: #ddd; 
+	  
 	}
    
-   /*Imagens dos paises que sofreram ditadura*/
-   
+	/*Imagens dos paises que sofreram ditadura*/
+	
 	.paises {
 		margin: 7px;
 		width: 22px;
@@ -11336,16 +11338,14 @@ textarea.form-control-lg {
 	 
 	}
  
-	
 	body {
-		overflow-x: hidden;	/*tag para esconder barra lateral*/
-	
+		overflow-x: hidden;
+ 
 	}
 	
 	p {
 		text-align: justify;
 		
 	}
- 
 
 /*# sourceMappingURL=bootstrap.css.map */
